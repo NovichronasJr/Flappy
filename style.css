@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: boredr-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+canvas{
+    border:5px solid black;
+    position : absolute;
+    top:0;
+    left:0;
+    max-width:100%;
+    max-height:100%;
+}
+
+button{ 
+
+    background-color: transparent;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:10rem;
+    left:60px;
+    border : 1px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+
+}
+
+.assets{   /*<--- we are making it none because we are going to display game assets using javascript--->*/
+
+    display:none;
+}
+
